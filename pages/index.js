@@ -11,6 +11,7 @@ export default function Home() {
         <Link href="/features" style={{ margin: "0 15px" }}>Features</Link>
         <Link href="/about" style={{ margin: "0 15px" }}>About</Link>
         <Link href="/contact" style={{ margin: "0 15px" }}>Contact</Link>
+        <Link href="/dashboard" style={{ margin: "0 15px" }}>Dashboard</Link>
       </nav>
     </div>
   );
