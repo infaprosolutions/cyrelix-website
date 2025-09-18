@@ -1,0 +1,2 @@
+import Image from 'next/image'
+export default function Hero(){return (<section className='py-20'><div className='max-w-7xl mx-auto grid md:grid-cols-2 gap-6 items-center'><div><h1 className='text-4xl font-extrabold'>STOP INSIDER THREATS<br/><span className='text-cyan-300'>DATA IS EVERYWHERE</span></h1><p className='mt-4 text-gray-300 max-w-lg'>Cyrelix detects insider threats with AI.</p></div><div className='flex justify-end'><div className='w-80 h-80 relative'><Image src='/hero-illustration.png' alt='hero' layout='fill' objectFit='contain'/></div></div></div></section>)}

@@ -1,0 +1,3 @@
+import Image from 'next/image'
+import Link from 'next/link'
+export default function Header(){return (<header className='p-4 max-w-7xl mx-auto flex items-center justify-between'><div className='flex items-center gap-3'><Image src='/logo-light.png' width={44} height={44} alt='logo'/><div className='font-semibold text-cyan-300'>CYRELIX</div></div><nav className='hidden md:flex gap-6'><Link href='/'>Home</Link><Link href='/features'>Features</Link><Link href='/dashboard'>Dashboard</Link></nav></header>)}

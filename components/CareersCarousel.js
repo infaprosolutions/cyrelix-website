@@ -1,0 +1,1 @@
+export default function CareersCarousel(){return (<section className='py-10'><div className='max-w-7xl mx-auto p-6'><h3>Join our Team</h3><div className='grid md:grid-cols-2 gap-6 mt-4'><div className='p-4 bg-white rounded'>Senior Backend Developer</div><div className='p-4 bg-white rounded'>Lead UX Designer</div></div></div></section>)}

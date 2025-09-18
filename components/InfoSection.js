@@ -1,0 +1,2 @@
+import Image from 'next/image'
+export default function InfoSection(){return (<section className='py-16'><div className='max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center'><div><h3 className='text-2xl font-bold'>REAL TIME DATA TRACING</h3><p className='mt-4'>Complete visibility into data flows.</p></div><div className='bg-white rounded p-6'><Image src='/stack-illustration.png' alt='stack' width={520} height={320}/></div></div></section>)}

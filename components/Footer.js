@@ -1,0 +1,1 @@
+export default function Footer(){return (<footer className='bg-[#031327] text-[#9bdad6] py-8'><div className='max-w-7xl mx-auto text-center'>© Infapro Solutions — Cyrelix</div></footer>)}

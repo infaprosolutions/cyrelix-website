@@ -1,0 +1,1 @@
+export default function TrustedLogos(){return (<section className='py-8 text-center'><div className='max-w-7xl mx-auto'><h4 className='text-cyan-300'>Trusted by</h4><div className='flex gap-6 justify-center mt-4'><div className='w-32 h-12 bg-[#0f234f]'></div><div className='w-32 h-12 bg-[#0f234f]'></div></div></div></section>)}
