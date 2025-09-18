@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--bg:#071428;--accent:#00c6b6;--muted:#bfeff0}
+html,body,#__next{height:100%}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--muted)}a{color:var(--muted)}img{max-width:100%}
