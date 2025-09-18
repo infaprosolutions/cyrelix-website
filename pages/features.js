@@ -1,0 +1,1 @@
+export default function Features(){return <div style={{padding:30}}><h1>Features</h1><ul><li>AI scanning</li></ul></div>}

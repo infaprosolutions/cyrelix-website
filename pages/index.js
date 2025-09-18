@@ -1,0 +1,12 @@
+import Head from 'next/head'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import FeatureGrid from '../components/FeatureGrid'
+import InfoSection from '../components/InfoSection'
+import TrustedLogos from '../components/TrustedLogos'
+import TeamCarousel from '../components/TeamCarousel'
+import CareersCarousel from '../components/CareersCarousel'
+import ContactMap from '../components/ContactMap'
+import Footer from '../components/Footer'
+import Chatbot from '../components/Chatbot'
+export default function Home(){return (<><Head><title>Cyrelix — Predict, Detect, Secure</title></Head><div className='min-h-screen bg-[#071428] text-[#E6F2F8]'><Header/><main><Hero/><TrustedLogos/><FeatureGrid/><InfoSection/><TeamCarousel/><CareersCarousel/><ContactMap/></main><Footer/><Chatbot/></div></>)}

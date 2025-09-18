@@ -1,0 +1,1 @@
+export default function About(){return <div style={{padding:30}}><h1>About</h1><p>Infapro Solutions - Cyrelix</p></div>}
