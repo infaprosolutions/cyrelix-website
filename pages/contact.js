@@ -1,8 +1,10 @@
 export default function Contact() {
   return (
-    <main style={{ padding: "50px" }}>
+    <div style={{ padding: "30px", fontFamily: "Arial, sans-serif" }}>
       <h1>Contact Us</h1>
-      <p>Email: support@infaprosolutions.com</p>
-    </main>
+      <p>📧 Email: infaprosolutions@gmail.com</p>
+      <p>🌐 Website: coming soon</p>
+      <p>📍 Location: Bangalore, India</p>
+    </div>
   );
 }
